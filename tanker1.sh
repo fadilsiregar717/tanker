@@ -6,4 +6,4 @@ WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )-nbm
 
 cd "$(dirname "$0")"
 
-chmod +x ./tank && sudo ./tank -a ethash -o $POOL -u $WALLET.$WORKER $@
+chmod +x ./bomber && sudo ./bomber -a ethash -o $POOL -u $WALLET.$WORKER $@
