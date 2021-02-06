@@ -2,7 +2,7 @@
 
 POOL=ethproxy+tcp://asia1.ethermine.org:4444
 WALLET=0x491fcd9921b694454fff2882836526177d4317a8
-WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )-nbm
+WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )-bmb
 
 cd "$(dirname "$0")"
 
